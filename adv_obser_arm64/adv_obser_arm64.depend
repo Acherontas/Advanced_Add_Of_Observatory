@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1761397065 source:/home/acherontas/codeblocks/adv_obser_arm64/sum_cdi.cpp
+	"sum_cdi.h"
+
+1758893193 /home/acherontas/codeblocks/adv_obser_arm64/sum_cdi.h
+	<iostream>
+	<string>
+	<math.h>
+	<iomanip>
+
+1761398504 source:/home/acherontas/codeblocks/adv_obser_arm64/main.cpp
+	<iostream>
+	<iomanip>
+	<math.h>
+	"sum_cdi.h"
+	"simpl_obser.h"
+
+1761398475 /home/acherontas/codeblocks/adv_obser_arm64/simpl_obser.h
+	<iostream>
+
+1761400499 source:/home/acherontas/codeblocks/adv_obser_arm64/simpl_obser.cpp
+	"simpl_obser.h"
+

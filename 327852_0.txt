@@ -1,0 +1,72 @@
+enter ur number, enter the 9[X]! 
+ the result is 43
+
+of 3278521465 - 43 ::== 3278521422 the sum of digits 
+
+----------WITH ALL IN LOOP -----------------------------------
+current cdi  -  next cdi  ::==  subtraction 
+43 -  7 ::== 36
+7 - 9 ::== 9
+and 9 - 7 ::== 2
+
+additions of all subtractions 
+0 + 3278521422 ::== 3278521422
+3278521422 + 36 ::== 3278521458
+3278521458 + 9 ::== 3278521467
+exiting with sum of 3278521467  - 2 ::== 3278521465
+
+Matches Main number with Sumof Them 
+
+-------------USING FIRST CDI-----------------------------
+    using 3278521465      first cdi 43
+    sum_of_nines 3278521467     last cdi 7
+
+      with 0 - 43 ::== -43
+      and 3278521465 - -43 ::== 3278521508 with cdi 5
+      --> 3278521467 - 3278521508 ::== -41
+      --> -41 - -43 ::== 2 with cdi 2
+      --> 9 - 2 ::== 7
+
+its the same 7  with 7
+
+
+          With observatory 
+         @1 :: 1|4|2|8|5|7 
+         @2 :: 2|8|5|7|1|4 
+         @3 :: 4|2|8|5|7|1 
+         @4 :: 5|7|1|4|2|8 
+         @5 :: 7|1|4|2|8|5 
+         @6 :: 8|5|7|1|4|2 
+         @7 :: 1|4|2|8|5|7 
+         @8 :: 2|8|5|7|1|4 
+
+
+
+5 2  ---> 7
+ || 2 8  ---> 1
+
+ || 8 5  ---> 4
+ || 5 2  ---> 7
+
+-------------END OF PROTOUS------------------------------
+
+----------END OF LOOP -----------------------------------
+
+----------------------DEPTH of cdis----------------------------
+the code below contains a depth proof. If depth isnt satisfied 
+the result MAY BE NOT the main number you entered above        
+of 43 - 7 ::== 36
+of assumption 7 - 7 ::== 9
+with assumption of addition 3278521422 + 36 + 9 ::== 3278521467
+of assumption 9 - 7 ::== 2
+and final of 3278521467 - 2 ::== 3278521465
+
+Depth is NOT correct but numbers matches
+
+And of number 3278521422
+internal result 36
+with ts_loop of 9
+36 - 9 ::== 27
+continue with 27
+internal result 9
+9 - 9 ::== 0

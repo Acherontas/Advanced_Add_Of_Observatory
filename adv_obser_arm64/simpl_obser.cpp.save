@@ -1,0 +1,93 @@
+#include "simpl_obser.h"
+
+simpl_obser::simpl_obser()
+{
+    //ctor
+}
+
+simpl_obser::~simpl_obser()
+{
+    //dtor
+}
+
+simpl_obser::simpl_obser(const simpl_obser& other)
+{
+    //copy ctor
+}
+
+simpl_obser& simpl_obser::operator=(const simpl_obser& rhs)
+{
+    if (this == &rhs) return *this; // handle self assignment
+    //assignment operator
+    return *this;
+}
+
+
+int simpl_obser::expose_ari(int arar,int dxdx){
+    int xfnd=0;
+    int smfnd=0;
+    for(int i=0;i<=20;i++){
+       if(arr_ari[i]==arar)
+       {
+         cout<<ar_apot[i] << " " << arr_ari[i] << " " << arr_dex[i] <<"\n";
+       xfnd=1;
+       smfnd+=1;
+       }
+       if(xfnd==1){break;}
+    }
+  xfnd=0;
+  for(int i=0;i<=20;i++){
+     if(arr_ari[i]==dxdx)
+     {
+       cout<<ar_apot[i] << " " << arr_ari[i] << " " << arr_dex[i] <<" \n";
+       xfnd=1;
+       smfnd+=1;
+     }
+     if(xfnd==1){break;}
+  }
+  if(smfnd<=2){cout<<"i will stop there no reason to continue \n";}
+ return 0;
+}
+
+
+int simpl_obser::expose_dex(int arar,int dxdx)
+{
+    int xfnd=0;
+    int smfnd=0;
+    for(int i=0;i<=20;i++){
+       if(arr_dex[i]==arar){
+        cout<< arr_ari[i] << " " << arr_dex[i] <<"\n" ;
+        cout<<"resulting to " << ar_apot[i] <<"\n";
+        xfnd=1;
+        smfnd+=1;
+       }
+      if(xfnd==1){break;}
+    }
+    xfnd=0;
+    for(int i=0;i<=20;i++){
+      if(arr_dex[i]==dxdx){
+      cout<< arr_ari[i] << " " << arr_dex[i] << "\n";
+      cout<<"resulting to " << ar_apot[i] <<"\n";
+      xfnd=1;
+      smfnd+=1;
+      }
+      if(xfnd==1){break;}
+    }
+    if(smfnd<=2){cout<<"i will stop there no reason to continue \n";}
+ return 0;
+
+}
+
+void simpl_obser::show_guid(){
+    cout<<"\n";
+    cout<<"         @1 :: "<<1 << "|" <<4 << "|" << 2 << "|"<< 8 << "|" << 5 << "|" <<7 <<" \n";
+    cout<<"         @2 :: "<<2 << "|" <<8 << "|" << 5 << "|"<< 7 << "|" << 1 << "|" <<4 <<" \n";
+    cout<<"@3 :: "<<4 << "|" <<2 << "|" << 8 << "|"<< 5 << "|" << 7 << "|" <<1 <<" \n";
+    cout<<"@4 :: "<<5 << "|" <<7 << "|" << 1 << "|"<< 4 << "|" << 2 << "|" <<8 <<" \n";
+    cout<<"@5 :: "<<7 << "|" <<1 << "|" << 4 << "|"<< 2 << "|" << 8 << "|" <<5 <<" \n";
+    cout<<"@6 :: "<<8 << "|" <<5 << "|" << 7 << "|"<< 1 << "|" << 4 << "|" <<2 <<" \n";
+    cout<<"@7 :: "<<1 << "|" <<4 << "|" << 2 << "|"<< 8 << "|" << 5 << "|" <<7 <<" \n";
+    cout<<"@8 :: "<<2 << "|" <<8 << "|" << 5 << "|"<< 7 << "|" << 1 << "|" <<4 <<" \n";
+    cout<<"\n";
+
+}
