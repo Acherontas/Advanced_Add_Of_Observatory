@@ -22,9 +22,9 @@ Matches Main number with Sumof Them
     sum_of_nines 3278521467     last cdi 7
 
       with 725963 - 43 ::== 725920
-      and 3278521465 - 725920 ::== 3277795545 with cdi 9
+      and 3278521465 - 725920 ::== 3277795545 with cdi 9   ----> Α
       --> 3278521467 - 3277795545 ::== 725922
-      --> 725922 - 725920 ::== 2 with cdi 2
+      --> 725922 - 725920 ::== 2 with cdi 2  ----> Β
       --> 9 - 2 ::== 7
 
 its the same 7  with 7
