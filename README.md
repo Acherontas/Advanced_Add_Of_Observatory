@@ -10,7 +10,7 @@ an excel of the table matrix with read-only attributes and password of 123456789
 
 ενα excel αρχείο με το πίνακα σε κατάσταση ανάγνωσης μόνο και κωδικό 1234567890
 
-Α & Β στα παραδείγμα \\\\\ A & B in examples 
+Α & Β στα παραδείγμα \\\\\\ A & B in examples 
 
 τους βρίσκεις στο αρχείο βρίσκεις το αποτέλεσμα 
 
