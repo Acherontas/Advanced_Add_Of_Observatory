@@ -1,0 +1,72 @@
+enter ur number, enter the 9[X]! 
+ the result is 23
+
+of 75209 - 23 ::== 75186 the sum of digits 
+
+----------WITH ALL IN LOOP -----------------------------------
+current cdi  -  next cdi  ::==  subtraction 
+23 -  5 ::== 18
+5 - 9 ::== 9
+and 9 - 5 ::== 4
+
+additions of all subtractions 
+0 + 75186 ::== 75186
+75186 + 18 ::== 75204
+75204 + 9 ::== 75213
+exiting with sum of 75213  - 4 ::== 75209
+
+Matches Main number with Sumof Them 
+
+-------------USING FIRST CDI-----------------------------
+    using 75209      first cdi 23
+    sum_of_nines 75213     last cdi 5
+
+      with 0 - 23 ::== -23
+      and 75209 - -23 ::== 75232 with cdi 1
+      --> 75213 - 75232 ::== -19
+      --> -19 - -23 ::== 4 with cdi 4
+      --> 9 - 4 ::== 5
+
+its the same 5  with 5
+
+
+          With observatory 
+         @1 :: 1|4|2|8|5|7 
+         @2 :: 2|8|5|7|1|4 
+         @3 :: 4|2|8|5|7|1 
+         @4 :: 5|7|1|4|2|8 
+         @5 :: 7|1|4|2|8|5 
+         @6 :: 8|5|7|1|4|2 
+         @7 :: 1|4|2|8|5|7 
+         @8 :: 2|8|5|7|1|4 
+
+
+
+1 4  ---> 5
+ || 4 7  ---> 2
+
+ || 7 1  ---> 8
+ || 1 4  ---> 5
+
+-------------END OF PROTOUS------------------------------
+
+----------END OF LOOP -----------------------------------
+
+----------------------DEPTH of cdis----------------------------
+the code below contains a depth proof. If depth isnt satisfied 
+the result MAY BE NOT the main number you entered above        
+of 23 - 5 ::== 18
+of assumption 5 - 5 ::== 9
+with assumption of addition 75186 + 18 + 9 ::== 75213
+of assumption 9 - 5 ::== 4
+and final of 75213 - 4 ::== 75209
+
+Depth is NOT correct but numbers matches
+
+And of number 75186
+internal result 27
+with ts_loop of 9
+27 - 9 ::== 18
+continue with 18
+internal result 9
+9 - 9 ::== 0

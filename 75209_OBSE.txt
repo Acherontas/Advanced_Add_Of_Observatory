@@ -1,0 +1,133 @@
+for every voyeristic behaviour out there its an observation table where the result get extracted from 
+reading the last two number if the sum is not 3 6 9 with the result almost the cell nearby with 
+a possible +-1 value its a good beginning 
+τιποτα δεν ειναι παρατηρησιμο μεχρι να το παρατηρησεις 
+u enter the number to start , u can set custom values press -5  default values is 1 and 3 or -4 to continue something like that 
+Πατα 1 για να εμφανίσεις το πως δουλεύει
+
+
+u enter x ::== 75209
+------------------Generating Number Analysis using 9 and 0 and 1 
+[cause the others 2,3,4,5,6,7,8 cant be used to retrieve the 2+7+8+5 as example from 2785 number] 
+
+
+( 9999 + 1 ) * 7 ::== 
+ ------> 9999 * 7 ::== 69993 + 
+ ------> 1 * 7 ::== 7
+
+       + 
+
+( 999 + 1 ) * 5 ::== 
+ ------> 999 * 5 ::== 4995 + 
+ ------> 1 * 5 ::== 5
+
+       + 
+
+( 99 + 1 ) * 2 ::== 
+ ------> 99 * 2 ::== 198 + 
+ ------> 1 * 2 ::== 2
+
+       + 
+
+( 9 + 1 ) * 0 ::== 
+ ------> 9 * 0 ::== 0 + 
+ ------> 1 * 0 ::== 0
+
+       + 
+
+( 0 + 1 ) * 9 ::== 
+ ------> 0 * 9 ::== 0 + 
+ ------> 1 * 9 ::== 9
+
+       = 
+
+
+Athroisma ton 9
+9 + 4995 + 198 + 0 + 0 +  ::== 5202 with sum of digits 9
+
+Athroisma ton mi 9
+7 + 5 + 2 + 0 + 9 +  ::== 23 with sum of digits 5
+
+with recheck of 5202 + 23 ::== 5225
+
+------------------Number Analysis retrieved continue with other solutions or and methods 
+
+u want custom values with value of change 0 with using start_custom=1 end_custom=3
+
+
+75209 and 5 as sum of digits 
+
+@1 :: 1|4|2|8|5|7 
+@2 :: 2|8|5|7|1|4 
+@3 :: 4|2|8|5|7|1 
+@4 :: 5|7|1|4|2|8 
+@5 :: 7|1|4|2|8|5 
+@6 :: 8|5|7|1|4|2 
+@7 :: 1|4|2|8|5|7 
+@8 :: 2|8|5|7|1|4 
+
+75209 75210  ---> 75209 + 75210  ::== 150419 of  / 2  || 
+75208 75209  ---> 75208 + 75209  ::== 150417 / 9  || 
+75209 75210 75211 75212  ---> 75209 + 75212  ::== 150421 / 4 || 
+75206 75207 75208 75209  ---> 75206 + 75209  ::== 150415 / 7 || 
+75206 75207 75208 75209 75210 75211 75212  ---> 75206 + 75212  ::== 150418 / 1
+or 75209 + 75209 ::== 150418
+
+Initial sum = 19
+
+---------Internal Sum -----------
+|---> 10
+|---> 1
+|---> Exiting with 1
+--------End of Sum------------
+
+
+according to pattern the possible sum will be 5
+
+according to cdis of main number 
+
+using value of ::== 5
+@i 0 of number 19 ::== of result  | FOUND 
+ -------> /2 ::== 9 | 0
+ -------> *2 ::== 38 | 0
+ -------> *1 ::== 19 | 0
+ -------> +1 ::== 20 | 0
+ -------> -1 ::== 18 | 0
+-------------------------
+@i 1 of number 10 ::== of result  | FOUND 
+ -------> /2 ::== 5 | 1
+ -------> *2 ::== 20 | 0
+ -------> *1 ::== 10 | 0
+ -------> +1 ::== 11 | 0
+ -------> -1 ::== 9 | 0
+-------------------------
+@i 2 of number 1 ::== of result  | FOUND 
+ -------> /2 ::== 0 | 0
+ -------> *2 ::== 2 | 0
+ -------> *1 ::== 1 | 0
+ -------> +1 ::== 2 | 0
+ -------> -1 ::== 0 | 0
+-------------------------
+
+will pass values 7 and 4
+
+using orizontia unreverse method 
+using order of 7 4 and pattern value of 5
+exiting with value of 0
+
+using orizontia reverse method 
+using order 4 7 and pattern value of 5
+exiting with value of 0
+
+using katheta unreverse method 
+using in order 7 down and up  4 and pattern value of 5
+@6 ^5 : 5 and 1 FOUND 1
+@1 ^8 : 5 and 1 FOUND 1
+exiting with value of 1
+
+using orizonta reverse method 
+using in order 4 down and up  7 and pattern value of 5
+@8 ^7 : 1 and 5 FOUND 1
+@2 ^1 : 1 and 5 FOUND 1
+exiting with value of 1
+
