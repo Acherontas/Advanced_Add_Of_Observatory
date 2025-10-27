@@ -19,5 +19,5 @@ you find them in the file u find the result
 
 
 για οποιαδήποτε πληροφορία στο acherontia.myosotis@gmail.com
-for any information please contact me 
-at acherontia.myosotis@gmail.com
+
+for any information please contact me at acherontia.myosotis@gmail.com
