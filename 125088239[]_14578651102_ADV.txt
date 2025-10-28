@@ -1,0 +1,73 @@
+enter ur number, enter the 9[X]! 
+ the result is 56
+
+of 12508239142650125 - 56 ::== 12508239142650069 the sum of digits 
+
+----------WITH ALL IN LOOP -----------------------------------
+current cdi  -  next cdi  ::==  subtraction 
+56 -  11 ::== 45
+11 -  2 ::== 9
+2 - 9 ::== 9
+and 9 - 2 ::== 7
+
+additions of all subtractions 
+0 + 12508239142650069 ::== 12508239142650069
+12508239142650069 + 45 ::== 12508239142650114
+12508239142650114 + 9 ::== 12508239142650123
+12508239142650123 + 9 ::== 12508239142650132
+exiting with sum of 12508239142650132  - 7 ::== 12508239142650125
+
+Matches Main number with Sumof Them 
+
+-------------USING FIRST CDI-----------------------------
+    using 12508239142650125      first cdi 56
+    sum_of_nines 12508239142650132     last cdi 2
+
+      with 14578651102 - 56 ::== 14578651046
+      and 12508239142650125 - 14578651046 ::== 12508224563999079 with cdi 9
+      --> 12508239142650132 - 12508224563999079 ::== 14578651053
+      --> 14578651053 - 14578651046 ::== 7 with cdi 7
+      --> 9 - 7 ::== 2
+
+its the same 2  with 2
+
+
+          With observatory 
+         @1 :: 1|4|2|8|5|7 
+         @2 :: 2|8|5|7|1|4 
+         @3 :: 4|2|8|5|7|1 
+         @4 :: 5|7|1|4|2|8 
+         @5 :: 7|1|4|2|8|5 
+         @6 :: 8|5|7|1|4|2 
+         @7 :: 1|4|2|8|5|7 
+         @8 :: 2|8|5|7|1|4 
+
+
+
+9 0  ---> 9
+ || 7 1  ---> 8
+
+ || 4 7  ---> 2
+
+-------------END OF PROTOUS------------------------------
+
+----------END OF LOOP -----------------------------------
+
+----------------------DEPTH of cdis----------------------------
+the code below contains a depth proof. If depth isnt satisfied 
+the result MAY BE NOT the main number you entered above        
+of 56 - 11 ::== 45
+of assumption 11 - 11 ::== 9
+with assumption of addition 12508239142650069 + 45 + 9 ::== 12508239142650123
+of assumption 9 - 11 ::== -2
+and final of 12508239142650123 - -2 ::== 12508239142650125
+
+Depth is NOT correct but numbers matches
+
+And of number 12508239142650069
+internal result 63
+with ts_loop of 9
+63 - 9 ::== 54
+continue with 54
+internal result 9
+9 - 9 ::== 0
