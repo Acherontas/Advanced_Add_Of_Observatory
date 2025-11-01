@@ -1,0 +1,72 @@
+enter ur number, enter the 9[X]! 
+ the result is 23
+
+of 2351381 - 23 ::== 2351358 the sum of digits 
+
+----------WITH ALL IN LOOP -----------------------------------
+current cdi  -  next cdi  ::==  subtraction 
+23 -  5 ::== 18
+5 - 9 ::== 9
+and 9 - 5 ::== 4
+
+additions of all subtractions 
+0 + 2351358 ::== 2351358
+2351358 + 18 ::== 2351376
+2351376 + 9 ::== 2351385
+exiting with sum of 2351385  - 4 ::== 2351381
+
+Matches Main number with Sumof Them 
+
+-------------USING FIRST CDI-----------------------------
+    using 2351381      first cdi 23
+    sum_of_nines 2351385     last cdi 5
+
+      with 3242324 - 23 ::== 3242301
+      and 2351381 - 3242301 ::== -890920 with cdi 1
+      --> 2351385 - -890920 ::== 3242305
+      --> 3242305 - 3242301 ::== 4 with cdi 4
+      --> 9 - 4 ::== 5
+
+its the same 5  with 5
+
+
+          With observatory 
+         @1 :: 1|4|2|8|5|7 
+         @2 :: 2|8|5|7|1|4 
+         @3 :: 4|2|8|5|7|1 
+         @4 :: 5|7|1|4|2|8 
+         @5 :: 7|1|4|2|8|5 
+         @6 :: 8|5|7|1|4|2 
+         @7 :: 1|4|2|8|5|7 
+         @8 :: 2|8|5|7|1|4 
+
+
+
+1 4  ---> 5
+ || 4 7  ---> 2
+
+ || 7 1  ---> 8
+ || 1 4  ---> 5
+
+-------------END OF PROTOUS------------------------------
+
+----------END OF LOOP -----------------------------------
+
+----------------------DEPTH of cdis----------------------------
+the code below contains a depth proof. If depth isnt satisfied 
+the result MAY BE NOT the main number you entered above        
+of 23 - 5 ::== 18
+of assumption 5 - 5 ::== 9
+with assumption of addition 2351358 + 18 + 9 ::== 2351385
+of assumption 9 - 5 ::== 4
+and final of 2351385 - 4 ::== 2351381
+
+Depth is NOT correct but numbers matches
+
+And of number 2351358
+internal result 27
+with ts_loop of 9
+27 - 9 ::== 18
+continue with 18
+internal result 9
+9 - 9 ::== 0

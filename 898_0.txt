@@ -1,0 +1,74 @@
+enter ur number, enter the 9[X]! 
+ the result is 67
+
+of 897987349012 - 67 ::== 897987348945 the sum of digits 
+
+----------WITH ALL IN LOOP -----------------------------------
+current cdi  -  next cdi  ::==  subtraction 
+67 -  13 ::== 54
+13 -  4 ::== 9
+4 - 9 ::== 9
+and 9 - 4 ::== 5
+
+additions of all subtractions 
+0 + 897987348945 ::== 897987348945
+897987348945 + 54 ::== 897987348999
+897987348999 + 9 ::== 897987349008
+897987349008 + 9 ::== 897987349017
+exiting with sum of 897987349017  - 5 ::== 897987349012
+
+Matches Main number with Sumof Them 
+
+-------------USING FIRST CDI-----------------------------
+    using 897987349012      first cdi 67
+    sum_of_nines 897987349017     last cdi 4
+
+      with 0 - 67 ::== -67
+      and 897987349012 - -67 ::== 897987349079 with cdi 8
+      --> 897987349017 - 897987349079 ::== -62
+      --> -62 - -67 ::== 5 with cdi 5
+      --> 9 - 5 ::== 4
+
+its the same 4  with 4
+
+
+          With observatory 
+         @1 :: 1|4|2|8|5|7 
+         @2 :: 2|8|5|7|1|4 
+         @3 :: 4|2|8|5|7|1 
+         @4 :: 5|7|1|4|2|8 
+         @5 :: 7|1|4|2|8|5 
+         @6 :: 8|5|7|1|4|2 
+         @7 :: 1|4|2|8|5|7 
+         @8 :: 2|8|5|7|1|4 
+
+
+
+8 5  ---> 4
+ || 5 2  ---> 7
+
+ || 2 8  ---> 1
+ || 8 5  ---> 4
+
+-------------END OF PROTOUS------------------------------
+
+----------END OF LOOP -----------------------------------
+
+----------------------DEPTH of cdis----------------------------
+the code below contains a depth proof. If depth isnt satisfied 
+the result MAY BE NOT the main number you entered above        
+of 67 - 13 ::== 54
+of assumption 13 - 13 ::== 9
+with assumption of addition 897987348945 + 54 + 9 ::== 897987349008
+of assumption 9 - 13 ::== -4
+and final of 897987349008 - -4 ::== 897987349012
+
+Depth is NOT correct but numbers matches
+
+And of number 897987348945
+internal result 81
+with ts_loop of 9
+81 - 9 ::== 72
+continue with 72
+internal result 9
+9 - 9 ::== 0
