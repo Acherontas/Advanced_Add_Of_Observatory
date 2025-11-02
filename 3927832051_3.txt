@@ -1,0 +1,72 @@
+enter ur number, enter the 9[X]! 
+ the result is 40
+
+of 3927832051 - 40 ::== 3927832011 the sum of digits 
+
+----------WITH ALL IN LOOP -----------------------------------
+current cdi  -  next cdi  ::==  subtraction 
+40 -  4 ::== 36
+4 - 9 ::== 9
+and 9 - 4 ::== 5
+
+additions of all subtractions 
+0 + 3927832011 ::== 3927832011
+3927832011 + 36 ::== 3927832047
+3927832047 + 9 ::== 3927832056
+exiting with sum of 3927832056  - 5 ::== 3927832051
+
+Matches Main number with Sumof Them 
+
+-------------USING FIRST CDI-----------------------------
+    using 3927832051      first cdi 40
+    sum_of_nines 3927832056     last cdi 4
+
+      with 3 - 40 ::== -37
+      and 3927832051 - -37 ::== 3927832088 with cdi 5
+      --> 3927832056 - 3927832088 ::== -32
+      --> -32 - -37 ::== 5 with cdi 5
+      --> 9 - 5 ::== 4
+
+its the same 4  with 4
+
+
+          With observatory 
+         @1 :: 1|4|2|8|5|7 
+         @2 :: 2|8|5|7|1|4 
+         @3 :: 4|2|8|5|7|1 
+         @4 :: 5|7|1|4|2|8 
+         @5 :: 7|1|4|2|8|5 
+         @6 :: 8|5|7|1|4|2 
+         @7 :: 1|4|2|8|5|7 
+         @8 :: 2|8|5|7|1|4 
+
+
+
+5 2  ---> 7
+ || 5 2  ---> 7
+
+ || 8 5  ---> 4
+ || 8 5  ---> 4
+
+-------------END OF PROTOUS------------------------------
+
+----------END OF LOOP -----------------------------------
+
+----------------------DEPTH of cdis----------------------------
+the code below contains a depth proof. If depth isnt satisfied 
+the result MAY BE NOT the main number you entered above        
+of 40 - 4 ::== 36
+of assumption 4 - 4 ::== 9
+with assumption of addition 3927832011 + 36 + 9 ::== 3927832056
+of assumption 9 - 4 ::== 5
+and final of 3927832056 - 5 ::== 3927832051
+
+Depth is NOT correct but numbers matches
+
+And of number 3927832011
+internal result 36
+with ts_loop of 9
+36 - 9 ::== 27
+continue with 27
+internal result 9
+9 - 9 ::== 0
