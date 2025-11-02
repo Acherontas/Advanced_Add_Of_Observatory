@@ -1,0 +1,72 @@
+enter ur number, enter the 9[X]! 
+ the result is 30
+
+of 2981352 - 30 ::== 2981322 the sum of digits 
+
+----------WITH ALL IN LOOP -----------------------------------
+current cdi  -  next cdi  ::==  subtraction 
+30 -  3 ::== 27
+3 - 9 ::== 9
+and 9 - 3 ::== 6
+
+additions of all subtractions 
+0 + 2981322 ::== 2981322
+2981322 + 27 ::== 2981349
+2981349 + 9 ::== 2981358
+exiting with sum of 2981358  - 6 ::== 2981352
+
+Matches Main number with Sumof Them 
+
+-------------USING FIRST CDI-----------------------------
+    using 2981352      first cdi 30
+    sum_of_nines 2981358     last cdi 3
+
+      with 0 - 30 ::== -30
+      and 2981352 - -30 ::== 2981382 with cdi 6
+      --> 2981358 - 2981382 ::== -24
+      --> -24 - -30 ::== 6 with cdi 6
+      --> 9 - 6 ::== 3
+
+its the same 3  with 3
+
+
+          With observatory 
+         @1 :: 1|4|2|8|5|7 
+         @2 :: 2|8|5|7|1|4 
+         @3 :: 4|2|8|5|7|1 
+         @4 :: 5|7|1|4|2|8 
+         @5 :: 7|1|4|2|8|5 
+         @6 :: 8|5|7|1|4|2 
+         @7 :: 1|4|2|8|5|7 
+         @8 :: 2|8|5|7|1|4 
+
+
+
+6 6  ---> 3
+ || 6 6  ---> 3
+
+ || 6 6  ---> 3
+ || 6 6  ---> 3
+
+-------------END OF PROTOUS------------------------------
+
+----------END OF LOOP -----------------------------------
+
+----------------------DEPTH of cdis----------------------------
+the code below contains a depth proof. If depth isnt satisfied 
+the result MAY BE NOT the main number you entered above        
+of 30 - 3 ::== 27
+of assumption 3 - 3 ::== 9
+with assumption of addition 2981322 + 27 + 9 ::== 2981358
+of assumption 9 - 3 ::== 6
+and final of 2981358 - 6 ::== 2981352
+
+Depth is NOT correct but numbers matches
+
+And of number 2981322
+internal result 27
+with ts_loop of 9
+27 - 9 ::== 18
+continue with 18
+internal result 9
+9 - 9 ::== 0
